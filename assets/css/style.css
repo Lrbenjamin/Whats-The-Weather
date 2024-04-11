@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #007bff;
+    color: white;
+    padding: 0.5em 1em;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+  
+form {
+    margin-bottom: 20px;
+}
+  
+input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+  
+button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: #0056b3;
+}
+  
+.weather-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+  
+.weather-card img {
+    max-width: 50px;
+    max-height: 50px;
+}
+  
+.current-day {
+    font-size: 1.2em; /* Larger font size for current day */
+    font-weight: bold;
+}
+
+label[for="cityInput"] {
+    font-size: 1.2em; /* Adjust the font size as needed */
+    font-weight: bold;
+    color: #333; /* Text color */
+    margin-bottom: 10px; /* Add some bottom margin for spacing */
+}
+
+.list-group.searchHistory .btn {
+    margin-bottom: 5px; /* Adjust the value as needed */
+}
